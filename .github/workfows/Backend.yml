@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-pip-
 
       - name: Install dependencies
-        run: pip install --no-cache-dir -r requirements.txt ruff
+        run: pip install --no-cache-dir -r requirements.txt
 
       - name: Run Ruff
         run: ruff .
