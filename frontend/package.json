@@ -1,0 +1,11 @@
+{
+  "name": "simple-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/sum.test.js",
+    "build": "echo 'No build step for static site'"
+  }
+} 
