@@ -33,7 +33,7 @@ jobs:
         run: pip install --no-cache-dir -r backend/requirements.txt
 
       - name: Run Ruff
-        run: ruff .
+        run: ruff backend/
       
       
           
